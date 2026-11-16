@@ -4,7 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Luke de Wet</title>
-  <meta name="description" content="I'm Luke de Wet. My projects are in aerospace calculations, flight data, a drone flight logger, Starbase, and satellite passes.">
+  <meta name="description" content="I'm Luke de Wet. My projects are aerospace calculations, flight data, a drone flight logger, a temperature and humidity experiment, Starbase, and satellite passes.">
+  <link rel="canonical" href="https://lukedw09.com/">
+  <meta property="og:site_name" content="Luke de Wet">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Luke de Wet">
+  <meta property="og:description" content="I'm Luke de Wet. My projects are aerospace calculations, flight data, a drone flight logger, a temperature and humidity experiment, Starbase, and satellite passes.">
+  <meta property="og:url" content="https://lukedw09.com/">
+  <meta property="og:image" content="https://lukedw09.com/assets/hero-starbase.jpg">
+  <meta property="og:image:alt" content="Luke standing at Starbase in front of the launch tower, with Ship held in the chopsticks.">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="788">
+  <meta property="og:image:height" content="1400">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Luke de Wet">
+  <meta name="twitter:description" content="I'm Luke de Wet. My projects are aerospace calculations, flight data, a drone flight logger, a temperature and humidity experiment, Starbase, and satellite passes.">
+  <meta name="twitter:image" content="https://lukedw09.com/assets/hero-starbase.jpg">
+  <meta name="twitter:image:alt" content="Luke standing at Starbase in front of the launch tower, with Ship held in the chopsticks.">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/site.css">
 </head>
@@ -12,9 +28,8 @@
   <a class="skip" href="#content">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="/"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="17" rx="13" ry="5" fill="none" stroke="#edf2f6" stroke-width="1.3" transform="rotate(-20 16 17)"/><path d="M8.5 23L16 9l7.5 14" fill="none" stroke="#e4c07a" stroke-width="2.4"/></svg> Luke de Wet</a>
-    <input class="nav-toggle" type="checkbox" id="nav-toggle">
-    <label class="nav-button" for="nav-toggle">Menu</label>
-    <nav class="site-nav" aria-label="Primary">
+    <button class="nav-button" type="button" aria-expanded="false" aria-controls="site-nav"><span class="nav-label">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="/" aria-current="page">Home</a>
       <a href="/projects/">Projects</a>
       <a href="/about/">About</a>
@@ -46,12 +61,19 @@
             <a class="row-link" href="/projects/#mavic">
               <span class="idx">03</span>
               <span class="name">Mavic Mini logger</span>
-              <span class="blurb">Arduino Nano, BMP180, microSD at 20 Hz. In progress.</span>
+              <span class="blurb">Bench test passed on Nov 12, 2026. Flight test is next.</span>
+            </a>
+          </li>
+          <li>
+            <a class="row-link" href="/projects/#dht11">
+              <span class="idx">04</span>
+              <span class="name">DHT11 logger</span>
+              <span class="blurb">Arduino Uno temperature and humidity logging, with a written test report.</span>
             </a>
           </li>
           <li>
             <a class="row-link" href="/projects/#starbase">
-              <span class="idx">04</span>
+              <span class="idx">05</span>
               <span class="name">StarbaseLaunchApp</span>
               <span class="blurb">Launch-day companion for Starship Flight 15.</span>
             </a>
@@ -59,7 +81,7 @@
           </li>
           <li>
             <a class="row-link" href="/projects/#satpass">
-              <span class="idx">05</span>
+              <span class="idx">06</span>
               <span class="name">SatPass</span>
               <span class="blurb">When bright satellites cross the sky.</span>
             </a>
@@ -92,5 +114,6 @@
       </nav>
     </div>
   </footer>
+  <script src="/js/nav.js"></script>
 </body>
 </html>

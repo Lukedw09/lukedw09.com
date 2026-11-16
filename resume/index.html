@@ -4,7 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Resume · Luke de Wet</title>
-  <meta name="description" content="My resume. I'm in Tallahassee. Study, textbooks, and Astraeus. I rowed for 3 years with Capital City Rowing.">
+  <meta name="description" content="Aerospace technician candidate in Tallahassee. Hands-on builds, skills, education, and independent study.">
+  <link rel="canonical" href="https://lukedw09.com/resume/">
+  <meta property="og:site_name" content="Luke de Wet">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Resume · Luke de Wet">
+  <meta property="og:description" content="Aerospace technician candidate in Tallahassee. Hands-on builds, skills, education, and independent study.">
+  <meta property="og:url" content="https://lukedw09.com/resume/">
+  <meta property="og:image" content="https://lukedw09.com/assets/hero-starbase.jpg">
+  <meta property="og:image:alt" content="Luke standing at Starbase in front of the launch tower, with Ship held in the chopsticks.">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="788">
+  <meta property="og:image:height" content="1400">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Resume · Luke de Wet">
+  <meta name="twitter:description" content="Aerospace technician candidate in Tallahassee. Hands-on builds, skills, education, and independent study.">
+  <meta name="twitter:image" content="https://lukedw09.com/assets/hero-starbase.jpg">
+  <meta name="twitter:image:alt" content="Luke standing at Starbase in front of the launch tower, with Ship held in the chopsticks.">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/css/site.css">
 </head>
@@ -12,9 +28,8 @@
   <a class="skip" href="#content">Skip to content</a>
   <header class="site-header">
     <a class="brand" href="/"><svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><ellipse cx="16" cy="17" rx="13" ry="5" fill="none" stroke="#edf2f6" stroke-width="1.3" transform="rotate(-20 16 17)"/><path d="M8.5 23L16 9l7.5 14" fill="none" stroke="#e4c07a" stroke-width="2.4"/></svg> Luke de Wet</a>
-    <input class="nav-toggle" type="checkbox" id="nav-toggle">
-    <label class="nav-button" for="nav-toggle">Menu</label>
-    <nav class="site-nav" aria-label="Primary">
+    <button class="nav-button" type="button" aria-expanded="false" aria-controls="site-nav"><span class="nav-label">Menu</span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="/">Home</a>
       <a href="/projects/">Projects</a>
       <a href="/about/">About</a>
@@ -27,25 +42,54 @@
         <div>
           <p class="kicker">Resume</p>
           <h1 class="page-title">Luke de Wet</h1>
-          <p class="contact-line">Tallahassee, FL · <a href="mailto:lukedw09@gmail.com">lukedw09@gmail.com</a> · <a href="https://x.com/lukedw09">@lukedw09</a> · Aspiring aerospace engineer</p>
+          <p class="contact-line">Aerospace Technician Candidate</p>
+          <p class="contact-line">Tallahassee, FL · <a href="mailto:lukedw09@gmail.com">lukedw09@gmail.com</a> · <a href="https://github.com/Lukedw09">github.com/Lukedw09</a> · X: <a href="https://x.com/lukedw09">@lukedw09</a></p>
         </div>
         <p><a class="button" href="/assets/Luke_de_Wet_Resume.pdf" download="Luke_de_Wet_Resume.pdf">Download PDF</a></p>
       </div>
 
-      <section class="resume-block" aria-labelledby="profile-heading">
-        <h2 id="profile-heading">Profile</h2>
-        <p>I'm a 17-year-old high school senior. I study 60–80 hours per week (3,000+ total). I rowed for 3 years with Capital City Rowing.</p>
+      <section class="resume-block" aria-labelledby="summary-heading">
+        <h2 id="summary-heading">Summary</h2>
+        <p>Homeschooled student finishing a high school diploma through Acellus. Self-taught hands-on builder engaged in independent aerospace study.</p>
+      </section>
+
+      <section class="resume-block" aria-labelledby="projects-heading">
+        <h2 id="projects-heading">Hands-on projects</h2>
+        <p><strong>Drone Flight Data Logger</strong> — 2026</p>
+        <ul>
+          <li>Built an Arduino Nano–based altitude logger for a DJI Mavic Mini.</li>
+          <li>Wired and bench-tested a 5 V boost converter, microSD logging, and a BMP180 barometer over I2C.</li>
+          <li>Used a multimeter to troubleshoot power.</li>
+          <li>Designed a ~4 g 3D-printed top mount in SolidWorks.</li>
+        </ul>
+        <p><strong>Temperature and Humidity Logging Experiment</strong> — 2026</p>
+        <ul>
+          <li>Built an Arduino Uno and DHT11 temperature/humidity sensor logging experiment and wrote a test report.</li>
+        </ul>
+        <p><strong>Astraeus (AerospaceBot)</strong> — 2026</p>
+        <ul>
+          <li>Built an AI aerospace engineering assistant that runs checked calculation programs (Hohmann transfers, orbital parameters, nozzle area–Mach, throat sizing, rocket motor performance, standard atmosphere, and V–n diagrams).</li>
+          <li>Published the source at <a href="https://github.com/Lukedw09/AerospaceBot">github.com/Lukedw09/AerospaceBot</a> and at <a href="https://astraeus.de-wet.com">astraeus.de-wet.com</a>.</li>
+        </ul>
+      </section>
+
+      <section class="resume-block" aria-labelledby="skills-heading">
+        <h2 id="skills-heading">Skills</h2>
+        <ul>
+          <li>SolidWorks CAD, 3D printing (PLA), Arduino/C++, wiring and breadboarding, multimeter use, Python, technical reading.</li>
+          <li>Measuring with calipers; creating and working from SolidWorks drawings; hand and power tools; soldering.</li>
+        </ul>
       </section>
 
       <section class="resume-block" aria-labelledby="education-heading">
         <h2 id="education-heading">Education</h2>
         <ul>
-          <li>Prior enrollment at Chiles High School for 2 years — self-studied whilst enrolled.</li>
-          <li>Started at basic geometry and studied through calculus III in one year (freshman year).</li>
-          <li>Sophomore year: a nonfiction deep dive and a shift to an engineering focus.</li>
-          <li>SAT: 1430.</li>
-          <li>Studying 60–80 hours per week on a self-directed homeschool for junior year and beyond. Obsessed over every little detail in the textbooks, doing nearly all of the practice problems available.</li>
+          <li>Acellus Academy (homeschool) — high school diploma, expected May 2027. Previously enrolled at Chiles High School for two years and self-studied while enrolled, progressing from basic geometry to Calculus III in one year. SAT 1430.</li>
         </ul>
+      </section>
+
+      <section class="resume-block" aria-labelledby="textbooks-heading">
+        <h2 id="textbooks-heading">Independent Study: Textbooks</h2>
         <ul>
           <li>Completed <strong>University Physics</strong> (Young and Freedman; 44 chapters; 1,700 pages; 2,000+ practice problems in 11 months; December 2025).</li>
           <li>Completed <strong>Introduction to Flight</strong> (Anderson; planes and classical aerospace engineering; about 900 pages; July 2025).</li>
@@ -60,22 +104,10 @@
         </ul>
       </section>
 
-      <section class="resume-block" aria-labelledby="projects-heading">
-        <h2 id="projects-heading">Projects</h2>
-        <p><strong>Astraeus (AerospaceBot)</strong> — creator, 2026</p>
-        <ul>
-          <li>Built an AI aerospace engineering assistant that runs checked calculation programs: Hohmann transfers, orbital parameters, nozzle area–Mach, throat sizing, rocket motor performance, standard atmosphere, V–n diagrams, and more.</li>
-          <li>Source is public on GitHub (<a href="https://github.com/Lukedw09/AerospaceBot">github.com/Lukedw09/AerospaceBot</a>). It can also be used at <a href="https://astraeus.de-wet.com">astraeus.de-wet.com</a>.</li>
-        </ul>
-        <p class="lede">FlightLog, the Mavic Mini logger, StarbaseLaunchApp, and SatPass are on the <a href="/projects/">projects page</a>.</p>
-      </section>
-
       <section class="resume-block" aria-labelledby="athletics-heading">
         <h2 id="athletics-heading">Athletics</h2>
         <ul>
-          <li>3 years with Capital City Rowing.</li>
-          <li>Nationals: 7th, U17 coxed four (<a href="https://www.regattacentral.com/regatta/results2/eventResults.jsp?job_id=9400&amp;event_id=26">USRowing Youth Nationals 2025</a>).</li>
-          <li>Erg personal records: 6:43.6 (2K), 18:12.1 (5K).</li>
+          <li>Rowed for three years with Capital City Rowing and placed 7th in the U17 coxed four at <a href="https://www.regattacentral.com/regatta/results2/eventResults.jsp?job_id=9400&amp;event_id=26">USRowing Youth Nationals 2025</a>, a team sport that required discipline, consistency, and close coordination.</li>
         </ul>
       </section>
     </div>
@@ -90,5 +122,6 @@
       </nav>
     </div>
   </footer>
+  <script src="/js/nav.js"></script>
 </body>
 </html>
