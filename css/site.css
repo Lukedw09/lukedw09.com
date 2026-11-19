@@ -550,6 +550,23 @@ figcaption {
   color: var(--amber);
 }
 
+.project-shots:has(> .shot:only-child) {
+  width: min(15rem, 65%);
+}
+
+.project-shots:has(> .shot:only-child) .shot {
+  width: 100%;
+  height: auto;
+  aspect-ratio: auto;
+}
+
+.project-shots:has(> .shot:only-child) .shot img {
+  position: static;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .shot-dialog {
   max-width: min(1120px, calc(100vw - 1.5rem));
   max-height: calc(100vh - 1.5rem);
@@ -876,6 +893,15 @@ meter::-moz-meter-bar {
     align-self: start;
     flex-direction: column;
     margin-top: 0.15rem;
+  }
+
+  .project:has(> .project-shots > .shot:only-child) {
+    grid-template-columns: minmax(0, 1fr) 16rem;
+  }
+
+  .project:has(> .project-shots > .shot:only-child) > .project-shots {
+    width: 16rem;
+    max-width: none;
   }
 }
 
