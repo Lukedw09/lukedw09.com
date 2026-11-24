@@ -4,12 +4,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects · Luke de Wet</title>
-  <meta name="description" content="I built Astraeus, FlightLog, a Mavic Mini flight logger, a DHT11 logging experiment, StarbaseLaunchApp, SatPass, the Moon Base Challenge, and a laser power-beaming demo.">
+  <meta name="description" content="I built a Mavic Mini flight logger, a DHT11 logging experiment, a laser power-beaming demo, the Moon Base Challenge, Astraeus, FlightLog, StarbaseLaunchApp, and SatPass.">
   <link rel="canonical" href="https://lukedw09.com/projects/">
   <meta property="og:site_name" content="Luke de Wet">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Projects · Luke de Wet">
-  <meta property="og:description" content="I built Astraeus, FlightLog, a Mavic Mini flight logger, a DHT11 logging experiment, StarbaseLaunchApp, SatPass, the Moon Base Challenge, and a laser power-beaming demo.">
+  <meta property="og:description" content="I built a Mavic Mini flight logger, a DHT11 logging experiment, a laser power-beaming demo, the Moon Base Challenge, Astraeus, FlightLog, StarbaseLaunchApp, and SatPass.">
   <meta property="og:url" content="https://lukedw09.com/projects/">
   <meta property="og:image" content="https://lukedw09.com/assets/hero-starbase.jpg">
   <meta property="og:image:alt" content="Luke standing at Starbase in front of the launch tower, with Ship held in the chopsticks.">
@@ -18,7 +18,7 @@
   <meta property="og:image:height" content="1400">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Projects · Luke de Wet">
-  <meta name="twitter:description" content="I built Astraeus, FlightLog, a Mavic Mini flight logger, a DHT11 logging experiment, StarbaseLaunchApp, SatPass, the Moon Base Challenge, and a laser power-beaming demo.">
+  <meta name="twitter:description" content="I built a Mavic Mini flight logger, a DHT11 logging experiment, a laser power-beaming demo, the Moon Base Challenge, Astraeus, FlightLog, StarbaseLaunchApp, and SatPass.">
   <meta name="twitter:image" content="https://lukedw09.com/assets/hero-starbase.jpg">
   <meta name="twitter:image:alt" content="Luke standing at Starbase in front of the launch tower, with Ship held in the chopsticks.">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -41,63 +41,17 @@
       <p class="kicker">08 records</p>
       <h1 class="page-title">Projects</h1>
       <div class="stack section">
-        <article class="project" id="astraeus">
-          <p class="kicker">01 <span class="status status-live">Live</span></p>
-          <h2>Astraeus</h2>
-          <p class="aka">Aerospace engineering assistant</p>
-          <div class="project-shots">
-            <button type="button" class="shot" aria-haspopup="dialog">
-              <img src="/assets/projects/astraeus-1.webp" width="1440" height="900" alt="Astraeus web chat answering a Hohmann transfer question with the printed delta-v lines from the checked program." loading="lazy" decoding="async">
-              <span class="shot-zoom">Enlarge</span>
-            </button>
-          </div>
-          <p>I built Astraeus, an AI aerospace engineering assistant that runs checked calculation programs. The public source is on GitHub, and I run the same assistant on the web at astraeus.de-wet.com.</p>
-          <ul class="calcs">
-            <li>Hohmann transfers</li>
-            <li>Orbital parameters</li>
-            <li>Nozzle area–Mach</li>
-            <li>Throat sizing</li>
-            <li>Motor performance</li>
-            <li>Standard atmosphere</li>
-            <li>V–n diagrams</li>
-          </ul>
-          <p class="link-row">
-            <a href="https://astraeus.de-wet.com">astraeus.de-wet.com</a>
-            <a href="https://github.com/Lukedw09/AerospaceBot">github.com/Lukedw09/AerospaceBot</a>
-          </p>
-        </article>
-
-        <article class="project" id="flightlog">
-          <p class="kicker">02 <span class="status status-live">Live</span></p>
-          <h2>FlightLog</h2>
-          <p class="aka">Flight-data analysis and simulation</p>
-          <div class="project-shots">
-            <figure class="shot-figure">
-              <button type="button" class="shot" aria-haspopup="dialog">
-                <img src="/assets/projects/flightlog-1.webp" width="1400" height="730" alt="FlightLog charts of altitude and pressure against time from an Arduino CSV recorded while walking down a hill." loading="lazy" decoding="async">
-                <span class="shot-zoom">Enlarge</span>
-              </button>
-              <figcaption><a href="https://x.com/i/status/2119782583668248933">Photo on X</a></figcaption>
-            </figure>
-            <figure class="shot-figure">
-              <button type="button" class="shot" aria-haspopup="dialog">
-                <img src="/assets/projects/flightlog-3.webp" width="1440" height="656" alt="FlightLog analyzing a practice webcast file, with altitude and speed charts and mission markers." loading="lazy" decoding="async">
-                <span class="shot-zoom">Enlarge</span>
-              </button>
-            </figure>
-          </div>
-          <p>I built FlightLog, a web tool for flight-data analysis and simulation. I use it to take a CSV from a launch, or to simulate one, and it draws elevation and pressure against time.</p>
-          <p class="link-row">
-            <a href="https://flightlog.lukedw09.com">flightlog.lukedw09.com</a>
-            <a href="https://github.com/Lukedw09/FlightLog">github.com/Lukedw09/FlightLog</a>
-          </p>
-        </article>
-
         <article class="project" id="mavic">
-          <p class="kicker">03 <span class="status status-done">Completed</span></p>
+          <p class="kicker">01 <span class="status status-done">Completed</span></p>
           <h2>Mavic Mini flight logger</h2>
           <p class="aka">Arduino Nano and BMP180</p>
           <div class="project-shots">
+            <figure class="shot-figure">
+              <button type="button" class="shot" aria-haspopup="dialog">
+                <img src="/assets/projects/mavic-wiring-1.webp" width="1600" height="682" alt="RevF3 wiring diagram for the Mavic Mini logger: top view of the mount with the Nano, microSD board, boost converter, switch, battery and BMP180, and a 15-wire pin-to-pin table." loading="lazy" decoding="async">
+                <span class="shot-zoom">Enlarge</span>
+              </button>
+            </figure>
             <figure class="shot-figure">
               <button type="button" class="shot" aria-haspopup="dialog">
                 <img src="/assets/projects/mavic-1.webp" width="1400" height="667" alt="Charts of altitude, pressure, and temperature from the Mavic Mini logger, with altitude rising to near 150 m." loading="lazy" decoding="async">
@@ -113,55 +67,42 @@
               <figcaption><a href="https://x.com/i/status/2123769336330650089">Photo on X</a></figcaption>
             </figure>
           </div>
+          <!-- TODO: solder close-ups -->
           <p>I built an Arduino Nano and BMP180 logger for a DJI Mavic Mini. It sits in a 3D-printed top mount and writes pressure, temperature, and altitude to a microSD card. I flew it up to about 150 m, and it logged how those changed on the way up.</p>
+          <p>I worked out the wiring on the bench first, then laid it out in a wiring diagram with a 15-wire pin-to-pin table. The 5 V and ground wires that share a pin are twisted, soldered into one joint, and heat-shrunk.</p>
           <p class="link-row">
             <a href="https://x.com/lukedw09/status/2123766388997394456">We got data</a>
           </p>
         </article>
 
         <article class="project" id="dht11">
-          <p class="kicker">04 <span class="status status-done">Report</span></p>
+          <p class="kicker">02 <span class="status status-done">Report</span></p>
           <h2>Temperature and humidity logger</h2>
           <p class="aka">Arduino Uno and DHT11</p>
           <p>I built an Arduino Uno and DHT11 temperature and humidity logging experiment, and I wrote a test report for it.</p>
         </article>
 
-        <article class="project" id="starbase">
-          <p class="kicker">05 <span class="status status-live">Live</span></p>
-          <h2>StarbaseLaunchApp</h2>
-          <p class="aka">Starship launch hub</p>
+        <article class="project" id="laser">
+          <p class="kicker">03 <span class="status status-work">In progress</span></p>
+          <h2>Laser power-beaming demo</h2>
+          <p class="aka">Solar panel, laser, and photovoltaic receiver</p>
           <div class="project-shots">
-            <button type="button" class="shot" aria-haspopup="dialog">
-              <img src="/assets/projects/starbaselaunchapp-1.webp" width="1440" height="900" alt="StarbaseLaunchApp flight history listing Flight 15 with the Ship 42 catch and earlier flights." loading="lazy" decoding="async">
-              <span class="shot-zoom">Enlarge</span>
-            </button>
+            <figure class="shot-figure">
+              <button type="button" class="shot" aria-haspopup="dialog">
+                <img src="/assets/projects/laser-1.webp" width="1440" height="980" alt="CAD render of the laser power-beaming demo: an adjustable solar panel and laser on one mount, aimed at a receiver mount with an adjustable lens." loading="lazy" decoding="async">
+                <span class="shot-zoom">Enlarge</span>
+              </button>
+              <figcaption><a href="https://x.com/lukedw09/status/2122665166974173258">Photo on X</a></figcaption>
+            </figure>
           </div>
-          <p>I built a hub for the next Starship launch at Starbase, Texas, and a launch-day companion for when a flight is close. Between flights it shows the next flight, past flights, vehicles, a viewing guide, and news. It is an unofficial fan app and is not affiliated with SpaceX.</p>
+          <p>I'm building a laser power-beaming demo for my Moon Base Challenge project. A solar panel powers a laser, which is aimed at a photovoltaic receiver with an adjustable lens that measures what arrives. The efficiency is the receiver's measured output divided by the solar panel's input power.</p>
           <p class="link-row">
-            <a href="https://starbaselaunchapp.lukedw09.com/">starbaselaunchapp.lukedw09.com</a>
-            <a href="https://github.com/Lukedw09/StarbaseLaunchApp">github.com/Lukedw09/StarbaseLaunchApp</a>
-          </p>
-        </article>
-
-        <article class="project" id="satpass">
-          <p class="kicker">06 <span class="status status-live">Live</span></p>
-          <h2>SatPass</h2>
-          <p class="aka">Satellite passes</p>
-          <div class="project-shots">
-            <button type="button" class="shot" aria-haspopup="dialog">
-              <img src="/assets/projects/satpass-1.webp" width="1440" height="1000" alt="SatPass listing upcoming visible ISS, Tiangong and Hubble passes with a sky chart and live position." loading="lazy" decoding="async">
-              <span class="shot-zoom">Enlarge</span>
-            </button>
-          </div>
-          <p>I built a browser satellite-pass predictor. It shows when the ISS, Tiangong, Hubble, and other bright satellites cross the sky, and which of those passes can be seen with the naked eye. It opens on Los Angeles.</p>
-          <p class="link-row">
-            <a href="https://satpass.lukedw09.com/">satpass.lukedw09.com</a>
-            <a href="https://github.com/Lukedw09/satpass">github.com/Lukedw09/satpass</a>
+            <a href="#moonbase">Moon Base Challenge</a>
           </p>
         </article>
 
         <article class="project" id="moonbase">
-          <p class="kicker">07 <span class="status status-work">In progress</span></p>
+          <p class="kicker">04 <span class="status status-work">In progress</span></p>
           <h2>Moon Base Challenge</h2>
           <p class="aka">CR1 sunlight maps at the lunar south pole</p>
           <div class="project-shots">
@@ -187,22 +128,89 @@
           </p>
         </article>
 
-        <article class="project" id="laser">
-          <p class="kicker">08 <span class="status status-work">In progress</span></p>
-          <h2>Laser power-beaming demo</h2>
-          <p class="aka">Solar panel, laser, and photovoltaic receiver</p>
+        <article class="project" id="astraeus">
+          <p class="kicker">05 <span class="status status-live">Live</span></p>
+          <h2>Astraeus</h2>
+          <p class="aka">Aerospace engineering assistant</p>
+          <div class="project-shots">
+            <button type="button" class="shot" aria-haspopup="dialog">
+              <img src="/assets/projects/astraeus-1.webp" width="1440" height="900" alt="Astraeus web chat answering a Hohmann transfer question with the printed delta-v lines from the checked program." loading="lazy" decoding="async">
+              <span class="shot-zoom">Enlarge</span>
+            </button>
+          </div>
+          <p>I built Astraeus, an AI aerospace engineering assistant that runs checked calculation programs. The public source is on GitHub, and I run the same assistant on the web at astraeus.de-wet.com.</p>
+          <ul class="calcs">
+            <li>Hohmann transfers</li>
+            <li>Orbital parameters</li>
+            <li>Nozzle area–Mach</li>
+            <li>Throat sizing</li>
+            <li>Motor performance</li>
+            <li>Standard atmosphere</li>
+            <li>V–n diagrams</li>
+          </ul>
+          <p class="link-row">
+            <a href="https://astraeus.de-wet.com">astraeus.de-wet.com</a>
+            <a href="https://github.com/Lukedw09/AerospaceBot">github.com/Lukedw09/AerospaceBot</a>
+          </p>
+        </article>
+
+        <article class="project" id="flightlog">
+          <p class="kicker">06 <span class="status status-live">Live</span></p>
+          <h2>FlightLog</h2>
+          <p class="aka">Flight-data analysis and simulation</p>
           <div class="project-shots">
             <figure class="shot-figure">
               <button type="button" class="shot" aria-haspopup="dialog">
-                <img src="/assets/projects/laser-1.webp" width="1440" height="980" alt="CAD render of the laser power-beaming demo: an adjustable solar panel and laser on one mount, aimed at a receiver mount with an adjustable lens." loading="lazy" decoding="async">
+                <img src="/assets/projects/flightlog-1.webp" width="1400" height="730" alt="FlightLog charts of altitude and pressure against time from an Arduino CSV recorded while walking down a hill." loading="lazy" decoding="async">
                 <span class="shot-zoom">Enlarge</span>
               </button>
-              <figcaption><a href="https://x.com/lukedw09/status/2122665166974173258">Photo on X</a></figcaption>
+              <figcaption><a href="https://x.com/i/status/2119782583668248933">Photo on X</a></figcaption>
+            </figure>
+            <figure class="shot-figure">
+              <button type="button" class="shot" aria-haspopup="dialog">
+                <img src="/assets/projects/flightlog-3.webp" width="1440" height="656" alt="FlightLog analyzing a practice webcast file, with altitude and speed charts and mission markers." loading="lazy" decoding="async">
+                <span class="shot-zoom">Enlarge</span>
+              </button>
             </figure>
           </div>
-          <p>I'm building a laser power-beaming demo for my Moon Base Challenge project. A solar panel powers a laser, which is aimed at a photovoltaic receiver with an adjustable lens that measures what arrives. The efficiency is the receiver's measured output divided by the solar panel's input power.</p>
+          <p>I built FlightLog, a web tool for flight-data analysis and simulation. I use it to take a CSV from a launch, or to simulate one, and it draws elevation and pressure against time.</p>
           <p class="link-row">
-            <a href="#moonbase">Moon Base Challenge</a>
+            <a href="https://flightlog.lukedw09.com">flightlog.lukedw09.com</a>
+            <a href="https://github.com/Lukedw09/FlightLog">github.com/Lukedw09/FlightLog</a>
+          </p>
+        </article>
+
+        <article class="project" id="starbase">
+          <p class="kicker">07 <span class="status status-live">Live</span></p>
+          <h2>StarbaseLaunchApp</h2>
+          <p class="aka">Starship launch hub</p>
+          <div class="project-shots">
+            <button type="button" class="shot" aria-haspopup="dialog">
+              <img src="/assets/projects/starbaselaunchapp-1.webp" width="1440" height="900" alt="StarbaseLaunchApp flight history listing Flight 15 with the Ship 42 catch and earlier flights." loading="lazy" decoding="async">
+              <span class="shot-zoom">Enlarge</span>
+            </button>
+          </div>
+          <p>I built a hub for the next Starship launch at Starbase, Texas, and a launch-day companion for when a flight is close. Between flights it shows the next flight, past flights, vehicles, a viewing guide, and news. It is an unofficial fan app and is not affiliated with SpaceX.</p>
+          <p class="link-row">
+            <a href="https://starbaselaunchapp.lukedw09.com/">starbaselaunchapp.lukedw09.com</a>
+            <a href="https://github.com/Lukedw09/StarbaseLaunchApp">github.com/Lukedw09/StarbaseLaunchApp</a>
+          </p>
+        </article>
+
+        <article class="project" id="satpass">
+          <p class="kicker">08 <span class="status status-live">Live</span></p>
+          <h2>SatPass</h2>
+          <p class="aka">Satellite passes</p>
+          <div class="project-shots">
+            <button type="button" class="shot" aria-haspopup="dialog">
+              <img src="/assets/projects/satpass-1.webp" width="1440" height="1000" alt="SatPass listing upcoming visible ISS, Tiangong and Hubble passes with a sky chart and live position." loading="lazy" decoding="async">
+              <span class="shot-zoom">Enlarge</span>
+            </button>
+          </div>
+          <p>I built a browser satellite-pass predictor. It shows when the ISS, Tiangong, Hubble, and other bright satellites cross the sky, and which of those passes can be seen with the naked eye. It opens on Los Angeles.</p>
+          <p class="link-row">
+            <a href="https://satpass.lukedw09.com/">satpass.lukedw09.com</a>
+            <a href="https://github.com/Lukedw09/satpass">github.com/Lukedw09/satpass</a>
           </p>
         </article>
       </div>
